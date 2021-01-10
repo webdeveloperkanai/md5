@@ -1,5 +1,4 @@
 <?php 
-
     if(isset($_POST['pass'])) {
         $p = md5($_POST['pass']);
 
@@ -7,8 +6,6 @@
     }
 
 ?>
-
-
 <!DOCTYPE html>
   <head>
     <title>index</title>
@@ -18,12 +15,8 @@
   </head>
 
   <body>
-  
     <form action="" method="POST">
         <input type="text" name="pass" id="pass" onchange="this.form.submit();">
     </form>
-  
-    
-  
   </body>
 </html>
